@@ -14,6 +14,10 @@ State transformation converts state data into a different format.
 
 Use this pattern to show, or store, data in a different format.
 
+## Scenario
+
+In this quickstart, you'll transform `Booking` ojects into `PurchaseOrder` objects.
+
 ## What you need to get started
 
 - The [.NET 6 SDK](https://dotnet.microsoft.com/en-us/download) should be installed
@@ -23,10 +27,10 @@ Use this pattern to show, or store, data in a different format.
 
 You can just start the API, no further configuration is required.
 
-The booking id to invoke the transformation is `1aa6ab11-a111-4687-a6e0-cbcf403bc6a8`;
+The booking id to invoke the transformation is `1aa6ab11-a111-4687-a6e0-cbcf403bc6a8`
 
 ## How to implement it yourself
 
-All that is required to implement this pattern is to copy over data from a source formation to a destination format.
+All that is required to implement this pattern is to copy over data from a source format to a destination format.
 
 MessageHandler is not used to implement this pattern.
